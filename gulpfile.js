@@ -1,6 +1,8 @@
 // Task runner
 const gulp = require("gulp");
 const autoprefixer = require("gulp-autoprefixer");
+const csso = require("gulp-csso");
+const uglify = require("gulp-uglify");
 const sass = require("gulp-sass");
 const browserSync = require("browser-sync").create();
 
@@ -25,6 +27,7 @@ function js() {
     return gulp
         .src([
             "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/gsap/dist/gsap.min.js",
             "node_modules/jquery/dist/jquery.min.js",
             "node_modules/popper.js/dist/popper.min.js",
         ])
@@ -43,11 +46,33 @@ function watch() {
     gulp.watch("./src/js/*.js").on("change", browserSync.reload);
 }
 
+function packCSS() {
+    return (
+        gulp
+            //1. Minify css with CSSO
+            .src("./src/css/*.css")
+            .pipe(csso())
+            .pipe(gulp.dest("./dist/css"))
+    );
+}
+
+function packJS() {
+    return (
+        gulp
+            //1. Minify JS with Uglify
+            .src("./src/js/*.js")
+            .pipe(uglify())
+            .pipe(gulp.dest("./dist/js"))
+    );
+}
+
 // Default task
 function defaultTask() {
     style();
     js();
     watch();
+    packCSS();
+    packJS();
 }
 
 exports.style = style;

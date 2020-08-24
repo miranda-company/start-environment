@@ -6,6 +6,7 @@ Open VSCode and clone this GitHub repo: Inside VSCode select Git: Clone command 
 
 ##How this starter kit was made:
 Checkout this video: https://www.youtube.com/watch?v=QgMQeLymAdU
+And this Gulp tutorial as well: https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
 
 1. Create a folder structure
 - dist
@@ -50,4 +51,13 @@ gulp-useref
 
 Via command line: npm install --save-dev browser-sync browserlist gulp-autoprefixer gulp-csso gulp-minify-html gulp-sass gulp-uglify gulp-useref
 
-9. Create gulpfile.js
+9. Install all this dependencies:
+bootstrap
+greensock
+jquery
+popper.js
+
+Via command line: npm install --save bootstrap greensock jquery popper.js
+
+10. Create gulpfile.js and tasks
+Checkout this tutorial https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
