@@ -8,7 +8,7 @@ Open VSCode and clone this GitHub repo: Inside VSCode select Git: Clone command 
 Checkout this video: https://www.youtube.com/watch?v=QgMQeLymAdU
 And this Gulp tutorial as well: https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
 
-1. Create a folder structure
+**1. Create a folder structure**
 - dist
 - src 
 
@@ -19,27 +19,27 @@ And this Gulp tutorial as well: https://hackernoon.com/how-to-automate-all-the-t
 - img
 index.html
 
-3. Install Node.js
+**3. Install Node.js**
 https://nodejs.org/en/
 To check version installed: node -v
 
-4. Install NPM
+**4. Install NPM**
 Via command line: npm install npm -g
 To check version installed: npm -v
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-5. Install gulp-cli globally
+**5. Install gulp-cli globally**
 Via command line: npm install gulp-cli g
 To check version installed: gulp -v
 
-6. Initialize npm (this will create a package.json file on root)
+**6. Initialize npm (this will create a package.json file on root)**
 Via command line: npm init
 ! Answer the questions for installation.
 
-7. Install gulp locally into the project
+**7. Install gulp locally into the project**
 Via command line: npm install --save-dev gulp
 
-8. Install all this dev dependencies:
+**8. Install all this dev dependencies:**
 - browser-sync
 - browserlist
 - gulp-autoprefixer
@@ -51,7 +51,7 @@ Via command line: npm install --save-dev gulp
 
 Via command line: npm install --save-dev browser-sync browserlist gulp-autoprefixer gulp-csso gulp-minify-html gulp-sass gulp-uglify gulp-useref
 
-9. Install all this dependencies:
+**9. Install all this dependencies:**
 - bootstrap
 - greensock
 - jquery
@@ -59,5 +59,5 @@ Via command line: npm install --save-dev browser-sync browserlist gulp-autoprefi
 
 Via command line: npm install --save bootstrap greensock jquery popper.js
 
-10. Create gulpfile.js and tasks
+**10. Create gulpfile.js and tasks**
 Checkout this tutorial https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
