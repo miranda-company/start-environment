@@ -40,22 +40,22 @@ Via command line: npm init
 Via command line: npm install --save-dev gulp
 
 8. Install all this dev dependencies:
-browser-sync
-browserlist
-gulp-autoprefixer
-gulp-csso
-gulp-minify-html
-gulp-sass
-gulp-uglify
-gulp-useref
+- browser-sync
+- browserlist
+- gulp-autoprefixer
+- gulp-csso
+- gulp-minify-html
+- gulp-sass
+- gulp-uglify
+- gulp-useref
 
 Via command line: npm install --save-dev browser-sync browserlist gulp-autoprefixer gulp-csso gulp-minify-html gulp-sass gulp-uglify gulp-useref
 
 9. Install all this dependencies:
-bootstrap
-greensock
-jquery
-popper.js
+- bootstrap
+- greensock
+- jquery
+- popper.js
 
 Via command line: npm install --save bootstrap greensock jquery popper.js
 
