@@ -1,0 +1,38 @@
+{
+  "name": "starter-environment",
+  "version": "1.0.0",
+  "description": "This is a starter development environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miranda-company/starter-environment.git"
+  },
+  "author": "Rodolfo Miranda Company",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miranda-company/starter-environment/issues"
+  },
+  "homepage": "https://github.com/miranda-company/starter-environment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "browserlist": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
