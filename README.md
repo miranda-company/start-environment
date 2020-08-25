@@ -1,10 +1,10 @@
 # starter-environment
-A development environment that includes Node.js, NPM, Bootstrap, SASS, Gulp, JQuery and GSAP.
+A development environment that includes Node.js, NPM, Gulp, Bootstrap, SASS, JQuery and GSAP.
 
-## Checking out the repo:
+## Checking out the repo
 Open VSCode and clone this GitHub repo: Inside VSCode select Git: Clone command in the Command Palette (Ctrl+Shift+P). And paste repo url. For more info checkout "Cloning a repository" https://code.visualstudio.com/docs/editor/versioncontrol
 
-## How this starter kit was made:
+## How this starter kit was made
 Checkout this video: https://www.youtube.com/watch?v=QgMQeLymAdU
 
 And this Gulp tutorial as well: https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
