@@ -49,6 +49,7 @@ Via command line: npm install --save-dev gulp
 - browser-sync
 - browserlist
 - gulp-autoprefixer
+- gulp-concat
 - gulp-csso
 - gulp-minify-html
 - gulp-sass
@@ -61,7 +62,6 @@ Via command line: npm install --save-dev browser-sync browserlist gulp-autoprefi
 - bootstrap
 - greensock
 - jquery
-- popper.js
 
 Via command line: npm install --save bootstrap greensock jquery popper.js
 
