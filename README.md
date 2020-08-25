@@ -12,7 +12,6 @@ And this Gulp tutorial as well: https://hackernoon.com/how-to-automate-all-the-t
 **1. Create a folder structure**
 - dist
 - src 
-- tmp
 
 **2. Create folder structure for src**
 - css
