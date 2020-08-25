@@ -1,1 +1,0 @@
-window.onload=function(){gsap.from("#myanim",{duration:1,opacity:0,yoyo:!0,repeat:-1})};
